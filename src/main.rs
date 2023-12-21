@@ -31,5 +31,5 @@ fn main() {
     let mut p3: Projective<Bls12_377G1Parameters> = Projective::rand(rng);
     let p4 = Projective::new(p3.x, -p3.y, p3.z);
     p3 += p4;
-    println!("p3: {:?}", p4);
+    println!("p3: {:?}", p3);
 }
