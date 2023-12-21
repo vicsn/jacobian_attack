@@ -191,6 +191,7 @@ version = "0.1.0"
 dependencies = [
  "snarkvm-curves",
  "snarkvm-fields",
+ "snarkvm-utilities",
 ]
 
 [[package]]
